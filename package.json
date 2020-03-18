@@ -1,0 +1,36 @@
+{
+  "name": "automation",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "selenium"
+  ],
+  "author": {
+    "name": "Khoa",
+    "email": "bmkhoaw@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/",
+    "config": "config/"
+  },
+  "engines": {
+    "node": "^10.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "start": "node src",
+    "mocha": "mocha test/ --recursive --exit"
+  },
+  "dependencies": {
+    "config": "^3.3.0",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "lodash": "^4.17.15"
+  }
+}

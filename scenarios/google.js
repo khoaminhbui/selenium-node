@@ -1,5 +1,6 @@
 module.exports = {
-    search: [
+    search: 
+    [
         ['maximizeWindow'],
         ['open', 'https://www.google.com'],
         ['enter', 'input[name=q]', 'cheese']
